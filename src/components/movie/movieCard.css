@@ -1,0 +1,73 @@
+.rating{
+    margin-top: 25px;
+    font-size: large;
+ }
+ .DEL{
+   font-size: 40px;
+   display: inline-block;
+   color: aliceblue;
+   background: transparent;
+ }
+ .DEL:hover{
+  cursor: pointer;
+ }
+ .myCard{
+   background-color: #222222;
+ }
+
+ .Title{
+   color: white;
+   font-size: 40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 800px;
+ }
+ .movie-card {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+
+.movie-card:hover .card-image {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  
+}
+
+.movie-card .card-image {
+  transition: all 0.3s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.movie-card .card-image Img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.movie-card .card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 30px;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.movie-card:hover .card-content {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.card-content{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}

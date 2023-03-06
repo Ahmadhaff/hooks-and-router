@@ -1,0 +1,99 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    
+    
+  }
+  
+  .modalContainer {
+    width: 400px;
+    height: 400px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 1) 10px 10px 10px ;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid black;
+    
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+  
+  }
+  
+  #cancelBtn {
+    background-color: #E40203;
+  }
+
+  .filmName{
+    margin-top: 20px;
+    background-color: #00020A;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .filmRate{
+    margin-top: 20px;
+    background-color: #00020A;
+    border: none;
+    border-radius: 5px;
+  }
+  .filmDescription{
+    margin-top: 20px;
+    background-color: #00020A;
+    border: none;
+    border-radius: 5px;
+  }
+  .filmImage{
+    background-color: #00020A;
+    border: none;
+    border-radius: 5px;
+  }
+  .closebtn{
+    color: #E40203;
+    font-weight: 900;
+    
+  }
+  
+  

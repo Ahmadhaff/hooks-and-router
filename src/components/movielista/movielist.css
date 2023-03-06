@@ -1,0 +1,31 @@
+.movie-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-top: 200px;
+    height: 350px;
+    margin-left: 60px;
+    margin-right: 60px
+}
+  
+
+.movie-list::-webkit-scrollbar{
+    display: none;
+}
+.cardStyle {
+    display: flex;
+    flex: 0 0 auto;
+    width: auto; /* adjust as needed */
+    scroll-snap-align: start;
+    gap: 60px;
+    
+    
+}
+
+

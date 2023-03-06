@@ -1,0 +1,24 @@
+.mbtn{
+    width: 120px;
+    height: 40px;
+}
+.Navbar-bg{
+    background-color: #00030F;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+.Navbar-bg .nav-link{
+    color: white;
+    font-weight: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+    
+}
+.Navbar-bg .navbar-brand{
+    color: white;
+    font-weight: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.active{
+    text-decoration: none;
+}

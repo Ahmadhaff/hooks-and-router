@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(250, 247, 247);
+}
+
+.description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 100px;
+} 
+
+.content-frame{
+    
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 20px;
+    height: 335px;
+    width: 570px;
+    background-color: #00030F;
+    border-radius: 4px; ;
+}
+.frame{
+   margin:10px 10px 10px 10px;
+   border-radius: 6px;
+}
+.film-desc{
+    background-color: #00030F;
+    height: 275px;
+    width: 400px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.mov-name{
+    color: rgb(109, 108, 108);
+    margin-left: 20px ;
+    margin-top: 5px;
+    
+}
+
+.mov-name p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.mov-description{
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(109, 108, 108);
+}
+.mov-date{
+    margin-top: 50px;
+    margin-left: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: rgb(65, 65, 65);
+}
